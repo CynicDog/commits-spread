@@ -309,121 +309,77 @@
     {
         "date": "2023-03-26",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-03-27",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-03-29",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-03",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-04",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-06",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-10",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-11",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-12",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-14",
         "commits_by_topics": {
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2023-04-17",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -437,22 +393,14 @@
     {
         "date": "2023-04-26",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-04-30",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -533,11 +481,7 @@
     {
         "date": "2023-05-18",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -548,11 +492,7 @@
             "orm": 1,
             "vertx": 1,
             "junit5": 1,
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 3
     },
@@ -573,11 +513,7 @@
             "springboot": 4,
             "springdata-jpa": 4,
             "springsecurity": 4,
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 6
     },
@@ -604,11 +540,7 @@
     {
         "date": "2023-06-08",
         "commits_by_topics": {
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 2
     },
@@ -627,11 +559,7 @@
     {
         "date": "2023-06-22",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -664,11 +592,7 @@
         "commits_by_topics": {
             "benchmark": 5,
             "jmh": 5,
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 6
     },
@@ -685,11 +609,7 @@
         "commits_by_topics": {
             "benchmark": 2,
             "jmh": 2,
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 3
     },
@@ -800,11 +720,7 @@
     {
         "date": "2023-09-13",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -828,22 +744,14 @@
             "vertx": 2,
             "benchmark": 1,
             "jmh": 1,
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 5
     },
     {
         "date": "2023-10-12",
         "commits_by_topics": {
-            "basics": 1,
-            "colaboratory": 1,
-            "java": 1,
-            "functional-programming": 1,
-            "stream": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -920,11 +828,7 @@
     {
         "date": "2024-01-13",
         "commits_by_topics": {
-            "basics": 2,
-            "colaboratory": 2,
-            "java": 2,
-            "functional-programming": 2,
-            "stream": 2
+            "java": 2
         },
         "total_count": 2
     },
@@ -1226,7 +1130,7 @@
         "commits_by_topics": {
             "githubactions": 4
         },
-        "total_count": 7
+        "total_count": 4
     },
     {
         "date": "2024-06-14",
@@ -1314,10 +1218,10 @@
     {
         "date": "2024-07-06",
         "commits_by_topics": {
-            "githubactions": 5,
+            "githubactions": 9,
             "d3": 2,
             "data-visualization": 2
         },
-        "total_count": 7
+        "total_count": 18
     }
 ]
