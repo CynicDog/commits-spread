@@ -386,7 +386,7 @@
             "vertx": 5,
             "junit5": 5
         },
-        "total_count": 5
+        "total_count": 7
     },
     {
         "date": "2023-05-15",
@@ -927,15 +927,15 @@
     {
         "date": "2024-06-07",
         "commits_by_topics": {
-            "gcp": 16,
-            "gke": 16,
-            "kubernetes": 16,
-            "oauth2": 16,
-            "quarkus": 16,
-            "react": 16,
-            "vertx": 16
+            "gcp": 21,
+            "gke": 21,
+            "kubernetes": 21,
+            "oauth2": 21,
+            "quarkus": 21,
+            "react": 21,
+            "vertx": 21
         },
-        "total_count": 16
+        "total_count": 21
     },
     {
         "date": "2024-06-08",
@@ -978,17 +978,17 @@
     {
         "date": "2024-06-11",
         "commits_by_topics": {
-            "jib": 5,
-            "kubernetes": 7,
-            "minikube": 5,
-            "oauth2": 7,
-            "quarkus": 7,
-            "vertx": 7,
+            "jib": 7,
+            "kubernetes": 9,
+            "minikube": 7,
+            "oauth2": 9,
+            "quarkus": 9,
+            "vertx": 9,
             "gcp": 2,
             "gke": 2,
             "react": 2
         },
-        "total_count": 7
+        "total_count": 9
     },
     {
         "date": "2024-06-13",
@@ -1019,9 +1019,9 @@
     {
         "date": "2024-06-18",
         "commits_by_topics": {
-            "githubactions": 11
+            "githubactions": 18
         },
-        "total_count": 11
+        "total_count": 18
     },
     {
         "date": "2024-06-19",
@@ -1059,26 +1059,26 @@
     {
         "date": "2024-07-01",
         "commits_by_topics": {
-            "d3": 1,
-            "data-visualization": 1
+            "d3": 5,
+            "data-visualization": 5
         },
-        "total_count": 1
+        "total_count": 5
     },
     {
         "date": "2024-07-02",
         "commits_by_topics": {
-            "d3": 2,
-            "data-visualization": 2
+            "d3": 9,
+            "data-visualization": 9
         },
-        "total_count": 2
+        "total_count": 9
     },
     {
         "date": "2024-07-03",
         "commits_by_topics": {
-            "d3": 3,
-            "data-visualization": 3
+            "d3": 14,
+            "data-visualization": 14
         },
-        "total_count": 10
+        "total_count": 21
     },
     {
         "date": "2024-07-06",
@@ -1086,6 +1086,6 @@
             "d3": 2,
             "data-visualization": 2
         },
-        "total_count": 4
+        "total_count": 6
     }
 ]
