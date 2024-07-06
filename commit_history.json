@@ -978,150 +978,84 @@
     {
         "date": "2024-05-11",
         "commits_by_topics": {
-            "jib": 3,
-            "kubernetes": 3,
-            "minikube": 3,
-            "oauth2": 3,
-            "quarkus": 3,
-            "vertx": 3
+            "quarkus": 3
         },
         "total_count": 3
     },
     {
         "date": "2024-05-12",
         "commits_by_topics": {
-            "jib": 1,
-            "kubernetes": 1,
-            "minikube": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-05-13",
         "commits_by_topics": {
-            "jib": 2,
-            "kubernetes": 2,
-            "minikube": 2,
-            "oauth2": 2,
-            "quarkus": 2,
-            "vertx": 2
+            "quarkus": 2
         },
         "total_count": 2
     },
     {
         "date": "2024-05-15",
         "commits_by_topics": {
-            "jib": 4,
-            "kubernetes": 4,
-            "minikube": 4,
-            "oauth2": 4,
-            "quarkus": 4,
-            "vertx": 4
+            "quarkus": 4
         },
         "total_count": 4
     },
     {
         "date": "2024-05-17",
         "commits_by_topics": {
-            "jib": 1,
-            "kubernetes": 1,
-            "minikube": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-05-18",
         "commits_by_topics": {
-            "jib": 1,
-            "kubernetes": 1,
-            "minikube": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-05-19",
         "commits_by_topics": {
-            "jib": 1,
-            "kubernetes": 1,
-            "minikube": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-06-07",
         "commits_by_topics": {
-            "gcp": 21,
-            "gke": 21,
-            "kubernetes": 21,
-            "oauth2": 21,
-            "quarkus": 21,
-            "react": 21,
-            "vertx": 21
+            "quarkus": 21
         },
         "total_count": 21
     },
     {
         "date": "2024-06-08",
         "commits_by_topics": {
-            "gcp": 3,
-            "gke": 3,
-            "kubernetes": 3,
-            "oauth2": 3,
-            "quarkus": 3,
-            "react": 3,
-            "vertx": 3
+            "quarkus": 3
         },
         "total_count": 3
     },
     {
         "date": "2024-06-09",
         "commits_by_topics": {
-            "jib": 9,
-            "kubernetes": 9,
-            "minikube": 9,
-            "oauth2": 9,
-            "quarkus": 9,
-            "vertx": 9
+            "quarkus": 9
         },
         "total_count": 9
     },
     {
         "date": "2024-06-10",
         "commits_by_topics": {
-            "gcp": 2,
-            "gke": 2,
-            "kubernetes": 2,
-            "oauth2": 2,
-            "quarkus": 2,
-            "react": 2,
-            "vertx": 2
+            "quarkus": 2
         },
         "total_count": 2
     },
     {
         "date": "2024-06-11",
         "commits_by_topics": {
-            "jib": 7,
-            "kubernetes": 9,
-            "minikube": 7,
-            "oauth2": 9,
-            "quarkus": 9,
-            "vertx": 9,
-            "gcp": 2,
-            "gke": 2,
-            "react": 2
+            "quarkus": 9
         },
         "total_count": 9
     },
@@ -1135,12 +1069,7 @@
     {
         "date": "2024-06-14",
         "commits_by_topics": {
-            "jib": 1,
-            "kubernetes": 1,
-            "minikube": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
@@ -1161,26 +1090,14 @@
     {
         "date": "2024-06-19",
         "commits_by_topics": {
-            "gcp": 1,
-            "gke": 1,
-            "kubernetes": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "react": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 5
     },
     {
         "date": "2024-06-23",
         "commits_by_topics": {
-            "gcp": 1,
-            "gke": 1,
-            "kubernetes": 1,
-            "oauth2": 1,
-            "quarkus": 1,
-            "react": 1,
-            "vertx": 1
+            "quarkus": 1
         },
         "total_count": 1
     },
@@ -1218,10 +1135,10 @@
     {
         "date": "2024-07-06",
         "commits_by_topics": {
-            "githubactions": 9,
+            "githubactions": 10,
             "d3": 2,
             "data-visualization": 2
         },
-        "total_count": 18
+        "total_count": 19
     }
 ]
