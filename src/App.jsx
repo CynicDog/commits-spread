@@ -68,7 +68,7 @@ function App() {
             infoContainer
                 .append("p")
                 .text(`${topic} (${date})`)
-                .style("color", "black")
+                .style("color", "white")
                 .style("font-weight", "lighter");
         }
 
@@ -98,7 +98,7 @@ function App() {
                 infoContainer
                     .append("p")
                     .text(`${topic} (${date})`)
-                    .style("color", "black")
+                    .style("color", "white")
                     .style("font-weight", "lighter");
             });
     };
