@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Contribution Graph Recreation</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 2px;
+            pointer-events: none;
+            border-radius: 3px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container w-100 overflow-auto">
+    <div id="graph"></div>
+</div>
+<div class="tooltip"></div>
+<script>
+    // Fetch data from server
+    d3.json('https://raw.githubusercontent.com/CynicDog/commits-spread/main/commit_history.json').then(data => {
+        // Configuration
+        const topics = Object.keys(data.reduce((acc, d) => {
+            Object.keys(d.commits_by_topics).forEach(topic => {
+                acc[topic] = true;
+            });
+            return acc;
+        }, {}));
+        const colorScale = d3.scaleOrdinal()
+            .domain(topics)
+            .range(d3.schemeSet3);
+        const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        const squareSize = 12;
+        const padding = 2;
+
+        // Prepare the data
+        const parseDate = d3.timeParse("%Y-%m-%d");
+        const startDate = parseDate(data[0].date);
+        const endDate = parseDate(data[data.length - 1].date);
+        const weeks = d3.timeWeeks(startDate, endDate).length + 1;
+
+        const gridData = [];
+        data.forEach(d => {
+            const date = parseDate(d.date);
+            const week = d3.timeWeek.count(startDate, date);
+            const day = date.getDay();
+            gridData.push({ week, day, commits_by_topics: d.commits_by_topics, total_count: d.total_count, date: d.date});
+        });
+
+        // Dimensions
+        const width = weeks * (squareSize + padding);
+        const height = 7 * (squareSize + padding);
+
+        // Create SVG container
+        const svg = d3.select("#graph")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Draw the grid
+        const squares = svg.selectAll(".grid-square")
+            .data(gridData)
+            .enter()
+            .append("rect")
+            .attr("class", "grid-square")
+            .attr("x", d => d.week * (squareSize + padding))
+            .attr("y", d => d.day * (squareSize + padding))
+            .attr("width", squareSize)
+            .attr("height", squareSize)
+            .attr("fill", d => {
+                const topic = Object.keys(d.commits_by_topics)[0];  // Simplified logic: use the first topic's color
+                return colorScale(topic);
+            })
+            .attr("fill-opacity", d => {
+                const topic = Object.keys(d.commits_by_topics)[0];  // Simplified logic: use the first topic's color
+                return d.commits_by_topics[topic] / d.total_count;
+            });
+
+        // Tooltip
+        const tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip");
+
+        squares.on("mouseover", function(event, d) {
+            const topic = Object.keys(d.commits_by_topics)[0];
+            const date = d.date;
+            const tooltipContent = `${topic} - ${date}`;
+            tooltip.html(tooltipContent)
+                .style("left", (event.pageX + 5) + "px")
+                .style("top", (event.pageY - 5) + "px")
+                .style("display", "block");
+            d3.select(this)
+                .attr("stroke", "black")  // Highlight the grid square on hover
+                .attr("stroke-width", .3);
+        })
+            .on("mouseout", function() {
+                tooltip.style("display", "none");
+                d3.select(this)
+                    .attr("stroke", "none");  // Remove highlight on mouseout
+            });
+
+    }).catch(error => {
+        console.error('Error loading the data:', error);
+    });
+</script>
+</body>
+</html>
