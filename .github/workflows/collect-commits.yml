@@ -64,7 +64,16 @@ jobs:
             url = f'https://api.github.com/repos/{owner}/{repo}/commits'
             response = requests.get(url, headers=HEADERS)
             response.raise_for_status()
-            return response.json()
+            
+            commits = response.json()
+            filtered_commits = [commit for commit in commits if commit_author(commit) != 'github-actions[bot]']
+            return filtered_commits
+
+        def commit_author(commit):
+            author = commit.get('author')
+            if author:
+                return author.get('login')
+            return None
 
         def save_commit_history(data, filename='commit_history.json'):
             with open(filename, 'w') as f:
@@ -82,8 +91,6 @@ jobs:
                 
                 commits = get_commits(owner, repo_name)
                 for commit in commits:
-                    author = commit.get('author')
-                    # if author and author.get('login') == GITHUB_USERNAME:
                     sha = commit['sha']
                     date = commit['commit']['author']['date'].split('T')[0]  # Extract the date part
                     commits_per_date[date].add(sha)
