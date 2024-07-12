@@ -1109,14 +1109,6 @@
         "total_count": 2
     },
     {
-        "date": "2024-07-01",
-        "commits_by_topics": {
-            "d3": 3,
-            "data-visualization": 3
-        },
-        "total_count": 3
-    },
-    {
         "date": "2024-07-02",
         "commits_by_topics": {
             "d3": 9,
@@ -1155,5 +1147,13 @@
             "githubactions": 1
         },
         "total_count": 1
+    },
+    {
+        "date": "2024-07-11",
+        "commits_by_topics": {
+            "d3": 3,
+            "data-visualization": 3
+        },
+        "total_count": 3
     }
 ]
