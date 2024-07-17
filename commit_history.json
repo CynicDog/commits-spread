@@ -1111,10 +1111,10 @@
     {
         "date": "2024-07-02",
         "commits_by_topics": {
-            "d3": 9,
-            "data-visualization": 9
+            "d3": 8,
+            "data-visualization": 8
         },
-        "total_count": 9
+        "total_count": 8
     },
     {
         "date": "2024-07-03",
@@ -1155,5 +1155,13 @@
             "data-visualization": 3
         },
         "total_count": 3
+    },
+    {
+        "date": "2024-07-16",
+        "commits_by_topics": {
+            "d3": 1,
+            "data-visualization": 1
+        },
+        "total_count": 1
     }
 ]
