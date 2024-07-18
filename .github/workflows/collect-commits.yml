@@ -121,7 +121,6 @@ jobs:
     - name: Commit and push changes
       run: |
         git add commit_history.json
-        git commit -m "Update commit history"
-        git push
+        git diff-index --quiet HEAD || git commit -m "Update commit history" && git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
