@@ -1,0 +1,19 @@
+name: 'Update Commit History'
+description: 'An action to update the commit history based on topics'
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+  GITHUB_USERNAME:
+    description: 'GitHub username'
+    required: true
+  REPO_NAME:
+    description: 'Repository name'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+    GITHUB_USERNAME: ${{ inputs.GITHUB_USERNAME }}
+    REPO_NAME: ${{ inputs.REPO_NAME }}
