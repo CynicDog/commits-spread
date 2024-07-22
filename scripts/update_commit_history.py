@@ -71,7 +71,7 @@ def main():
         result = {
             'date': date,
             'commits_by_topics': topics_count,
-            'total_count': len(commits_per_date[date])  # Count unique commits per date
+            'total_count': sum(topics_count.values())  # Count unique commits per date
         }
         results.append(result)
 
