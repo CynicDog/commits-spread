@@ -2,7 +2,7 @@
   "name": "commits-spread",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cynicdog.github.io/commits-spread",
+  "homepage": "https://cynicdog.github.io/commits-spread/#",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
