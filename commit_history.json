@@ -198,91 +198,91 @@
     {
         "date": "2022-09-01",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-09-02",
         "commits_by_topics": {
-            "spring": 5
+            "java": 5
         },
         "total_count": 5
     },
     {
         "date": "2022-09-04",
         "commits_by_topics": {
-            "spring": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-09-05",
         "commits_by_topics": {
-            "spring": 3
+            "java": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-09-06",
         "commits_by_topics": {
-            "spring": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-09-07",
         "commits_by_topics": {
-            "spring": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-09-08",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-09-11",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-09-12",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-09-13",
         "commits_by_topics": {
-            "spring": 3
+            "java": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-09-15",
         "commits_by_topics": {
-            "spring": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-09-18",
         "commits_by_topics": {
-            "spring": 4
+            "java": 4
         },
         "total_count": 4
     },
     {
         "date": "2022-09-19",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
@@ -408,7 +408,7 @@
     {
         "date": "2023-04-20",
         "commits_by_topics": {
-            "spring": 1
+            "java": 1
         },
         "total_count": 1
     },
@@ -550,44 +550,42 @@
     {
         "date": "2023-07-07",
         "commits_by_topics": {
-            "spring": 2
+            "java": 2
         },
         "total_count": 2
     },
     {
         "date": "2023-07-10",
         "commits_by_topics": {
-            "spring": 7
+            "java": 7
         },
         "total_count": 7
     },
     {
         "date": "2023-07-11",
         "commits_by_topics": {
-            "spring": 4
+            "java": 4
         },
         "total_count": 4
     },
     {
         "date": "2023-07-12",
         "commits_by_topics": {
-            "spring": 5,
-            "java": 1
+            "java": 6
         },
         "total_count": 6
     },
     {
         "date": "2023-07-14",
         "commits_by_topics": {
-            "spring": 5
+            "java": 5
         },
         "total_count": 5
     },
     {
         "date": "2023-07-17",
         "commits_by_topics": {
-            "spring": 2,
-            "java": 1
+            "java": 3
         },
         "total_count": 3
     },
@@ -764,8 +762,7 @@
         "date": "2023-10-09",
         "commits_by_topics": {
             "vertx": 2,
-            "spring": 1,
-            "java": 2
+            "java": 3
         },
         "total_count": 5
     },
@@ -800,7 +797,7 @@
     {
         "date": "2023-10-19",
         "commits_by_topics": {
-            "spring": 4
+            "java": 4
         },
         "total_count": 4
     },
@@ -1204,13 +1201,6 @@
         "date": "2024-07-16",
         "commits_by_topics": {
             "d3": 1
-        },
-        "total_count": 1
-    },
-    {
-        "date": "2024-07-18",
-        "commits_by_topics": {
-            "githubactions": 1
         },
         "total_count": 1
     },
