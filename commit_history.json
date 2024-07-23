@@ -1127,11 +1127,10 @@
     {
         "date": "2024-07-06",
         "commits_by_topics": {
-            "githubactions": 3,
-            "d3": 2,
+            "d3": 4,
             "data-visualization": 2
         },
-        "total_count": 12
+        "total_count": 11
     },
     {
         "date": "2024-07-07",
@@ -1144,7 +1143,7 @@
     {
         "date": "2024-07-08",
         "commits_by_topics": {
-            "githubactions": 1
+            "d3": 1
         },
         "total_count": 1
     },
@@ -1167,29 +1166,36 @@
     {
         "date": "2024-07-18",
         "commits_by_topics": {
-            "githubactions": 1
+            "d3": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-07-19",
         "commits_by_topics": {
-            "githubactions": 6
+            "d3": 6
         },
         "total_count": 6
     },
     {
         "date": "2024-07-20",
         "commits_by_topics": {
-            "githubactions": 2
+            "d3": 2
         },
         "total_count": 2
     },
     {
         "date": "2024-07-22",
         "commits_by_topics": {
-            "githubactions": 2
+            "d3": 2
         },
         "total_count": 2
+    },
+    {
+        "date": "2024-07-23",
+        "commits_by_topics": {
+            "d3": 1
+        },
+        "total_count": 1
     }
 ]
