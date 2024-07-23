@@ -2,216 +2,196 @@
     {
         "date": "2022-07-05",
         "commits_by_topics": {
-            "java": 3,
-            "spring": 3,
-            "spring-boot": 3
+            "spring": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-07-06",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-07-07",
         "commits_by_topics": {
-            "java": 7,
-            "spring": 7,
-            "spring-boot": 7
+            "spring": 7
         },
         "total_count": 7
     },
     {
         "date": "2022-07-08",
         "commits_by_topics": {
-            "java": 2,
-            "spring": 2,
-            "spring-boot": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-07-09",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-07-10",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-07-11",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-07-12",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-07-13",
         "commits_by_topics": {
-            "java": 3,
-            "spring": 3,
-            "spring-boot": 3
+            "spring": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-07-14",
         "commits_by_topics": {
-            "java": 2,
-            "spring": 2,
-            "spring-boot": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-07-15",
         "commits_by_topics": {
-            "java": 3,
-            "spring": 3,
-            "spring-boot": 3
+            "spring": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-07-16",
         "commits_by_topics": {
-            "java": 2,
-            "spring": 2,
-            "spring-boot": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-07-20",
         "commits_by_topics": {
-            "java": 2,
-            "spring": 2,
-            "spring-boot": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-07-22",
         "commits_by_topics": {
-            "java": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
+        "date": "2022-07-24",
+        "commits_by_topics": {
+            "spring": 4
+        },
+        "total_count": 4
+    },
+    {
+        "date": "2022-07-25",
+        "commits_by_topics": {
+            "spring": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-26",
+        "commits_by_topics": {
+            "spring": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2022-07-27",
+        "commits_by_topics": {
+            "spring": 3
+        },
+        "total_count": 3
+    },
+    {
         "date": "2022-07-28",
         "commits_by_topics": {
-            "microservices": 4,
-            "spring": 4,
-            "spring-boot": 4
+            "spring": 4
         },
         "total_count": 4
     },
     {
         "date": "2022-07-29",
         "commits_by_topics": {
-            "microservices": 6,
-            "spring": 6,
-            "spring-boot": 6
+            "spring": 6
         },
         "total_count": 6
     },
     {
         "date": "2022-07-30",
         "commits_by_topics": {
-            "microservices": 2,
-            "spring": 2,
-            "spring-boot": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2022-07-31",
         "commits_by_topics": {
-            "microservices": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-08-02",
         "commits_by_topics": {
-            "microservices": 3,
-            "spring": 3,
-            "spring-boot": 3
+            "spring": 3
         },
         "total_count": 3
     },
     {
         "date": "2022-08-04",
         "commits_by_topics": {
-            "microservices": 7,
-            "spring": 7,
-            "spring-boot": 7
+            "spring": 7
         },
         "total_count": 7
     },
     {
         "date": "2022-08-06",
         "commits_by_topics": {
-            "microservices": 4,
-            "spring": 4,
-            "spring-boot": 4
+            "spring": 4
         },
         "total_count": 4
     },
     {
         "date": "2022-08-07",
         "commits_by_topics": {
-            "microservices": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-08-08",
         "commits_by_topics": {
-            "microservices": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2022-08-14",
         "commits_by_topics": {
-            "microservices": 1,
-            "spring": 1,
-            "spring-boot": 1
+            "spring": 1
         },
         "total_count": 1
     },
@@ -303,6 +283,34 @@
         "date": "2022-09-19",
         "commits_by_topics": {
             "spring": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2023-03-01",
+        "commits_by_topics": {
+            "python": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2023-03-12",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2023-03-13",
+        "commits_by_topics": {
+            "python": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2023-03-14",
+        "commits_by_topics": {
+            "python": 2
         },
         "total_count": 2
     },
@@ -421,60 +429,42 @@
     {
         "date": "2023-05-10",
         "commits_by_topics": {
-            "jpa-hibernate": 8,
-            "orm": 8,
-            "vertx": 8,
-            "junit5": 8
+            "vertx": 8
         },
         "total_count": 8
     },
     {
         "date": "2023-05-11",
         "commits_by_topics": {
-            "jpa-hibernate": 4,
-            "orm": 4,
-            "vertx": 4,
-            "junit5": 4
+            "vertx": 4
         },
         "total_count": 4
     },
     {
         "date": "2023-05-12",
         "commits_by_topics": {
-            "jpa-hibernate": 5,
-            "orm": 5,
-            "vertx": 5,
-            "junit5": 5
+            "vertx": 5
         },
         "total_count": 7
     },
     {
         "date": "2023-05-15",
         "commits_by_topics": {
-            "jpa-hibernate": 6,
-            "orm": 6,
-            "vertx": 6,
-            "junit5": 6
+            "vertx": 6
         },
         "total_count": 6
     },
     {
         "date": "2023-05-16",
         "commits_by_topics": {
-            "jpa-hibernate": 3,
-            "orm": 3,
-            "vertx": 3,
-            "junit5": 3
+            "vertx": 3
         },
         "total_count": 3
     },
     {
         "date": "2023-05-17",
         "commits_by_topics": {
-            "jpa-hibernate": 3,
-            "orm": 3,
-            "vertx": 3,
-            "junit5": 3
+            "vertx": 3
         },
         "total_count": 3
     },
@@ -488,10 +478,7 @@
     {
         "date": "2023-05-24",
         "commits_by_topics": {
-            "jpa-hibernate": 1,
-            "orm": 1,
             "vertx": 1,
-            "junit5": 1,
             "java": 2
         },
         "total_count": 3
@@ -499,20 +486,14 @@
     {
         "date": "2023-05-26",
         "commits_by_topics": {
-            "jpa-hibernate": 1,
-            "springboot": 1,
-            "springdata-jpa": 1,
-            "springsecurity": 1
+            "spring": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-05-30",
         "commits_by_topics": {
-            "jpa-hibernate": 4,
-            "springboot": 4,
-            "springdata-jpa": 4,
-            "springsecurity": 4,
+            "spring": 4,
             "java": 2
         },
         "total_count": 6
@@ -520,20 +501,14 @@
     {
         "date": "2023-05-31",
         "commits_by_topics": {
-            "jpa-hibernate": 3,
-            "springboot": 3,
-            "springdata-jpa": 3,
-            "springsecurity": 3
+            "spring": 3
         },
         "total_count": 3
     },
     {
         "date": "2023-06-05",
         "commits_by_topics": {
-            "jpa-hibernate": 9,
-            "springboot": 9,
-            "springdata-jpa": 9,
-            "springsecurity": 9
+            "spring": 9
         },
         "total_count": 9
     },
@@ -547,12 +522,7 @@
     {
         "date": "2023-06-11",
         "commits_by_topics": {
-            "jpa-hibernate": 11,
-            "springboot": 11,
-            "springdata-jpa": 11,
-            "springsecurity": 15,
-            "hibernate-jpa": 4,
-            "spring": 4
+            "spring": 15
         },
         "total_count": 15
     },
@@ -566,32 +536,28 @@
     {
         "date": "2023-07-07",
         "commits_by_topics": {
-            "benchmark": 2,
-            "jmh": 2
+            "spring": 2
         },
         "total_count": 2
     },
     {
         "date": "2023-07-10",
         "commits_by_topics": {
-            "benchmark": 7,
-            "jmh": 7
+            "spring": 7
         },
         "total_count": 7
     },
     {
         "date": "2023-07-11",
         "commits_by_topics": {
-            "benchmark": 4,
-            "jmh": 4
+            "spring": 4
         },
         "total_count": 4
     },
     {
         "date": "2023-07-12",
         "commits_by_topics": {
-            "benchmark": 5,
-            "jmh": 5,
+            "spring": 5,
             "java": 1
         },
         "total_count": 6
@@ -599,16 +565,14 @@
     {
         "date": "2023-07-14",
         "commits_by_topics": {
-            "benchmark": 5,
-            "jmh": 5
+            "spring": 5
         },
         "total_count": 5
     },
     {
         "date": "2023-07-17",
         "commits_by_topics": {
-            "benchmark": 2,
-            "jmh": 2,
+            "spring": 2,
             "java": 1
         },
         "total_count": 3
@@ -616,7 +580,6 @@
     {
         "date": "2023-07-18",
         "commits_by_topics": {
-            "java": 8,
             "spring": 8
         },
         "total_count": 8
@@ -624,7 +587,6 @@
     {
         "date": "2023-07-19",
         "commits_by_topics": {
-            "java": 4,
             "spring": 4
         },
         "total_count": 4
@@ -632,7 +594,6 @@
     {
         "date": "2023-07-20",
         "commits_by_topics": {
-            "java": 3,
             "spring": 3
         },
         "total_count": 3
@@ -640,7 +601,6 @@
     {
         "date": "2023-07-21",
         "commits_by_topics": {
-            "java": 2,
             "spring": 2
         },
         "total_count": 2
@@ -648,16 +608,15 @@
     {
         "date": "2023-07-24",
         "commits_by_topics": {
-            "themeleaf": 1
+            "java": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-07-25",
         "commits_by_topics": {
-            "java": 2,
             "spring": 2,
-            "themeleaf": 2
+            "java": 2
         },
         "total_count": 4
     },
@@ -739,14 +698,76 @@
         "total_count": 4
     },
     {
+        "date": "2023-09-30",
+        "commits_by_topics": {
+            "python": 4
+        },
+        "total_count": 4
+    },
+    {
+        "date": "2023-10-01",
+        "commits_by_topics": {
+            "python": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2023-10-02",
+        "commits_by_topics": {
+            "python": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2023-10-03",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2023-10-04",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2023-10-06",
+        "commits_by_topics": {
+            "python": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2023-10-08",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
         "date": "2023-10-09",
         "commits_by_topics": {
             "vertx": 2,
-            "benchmark": 1,
-            "jmh": 1,
+            "spring": 1,
             "java": 2
         },
         "total_count": 5
+    },
+    {
+        "date": "2023-10-10",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2023-10-11",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
     },
     {
         "date": "2023-10-12",
@@ -756,72 +777,80 @@
         "total_count": 1
     },
     {
+        "date": "2023-10-16",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
         "date": "2023-10-19",
         "commits_by_topics": {
-            "benchmark": 4,
-            "jmh": 4
+            "spring": 4
         },
         "total_count": 4
     },
     {
+        "date": "2023-10-26",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2023-10-28",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
         "date": "2023-10-29",
         "commits_by_topics": {
-            "docker": 10,
-            "docker-compose": 10,
-            "microservice": 10,
-            "resilience4j": 10,
-            "springcloud": 10
+            "python": 3,
+            "docker": 10
         },
         "total_count": 13
     },
     {
+        "date": "2023-10-30",
+        "commits_by_topics": {
+            "python": 1
+        },
+        "total_count": 1
+    },
+    {
         "date": "2023-11-04",
         "commits_by_topics": {
-            "docker": 20,
-            "docker-compose": 20,
-            "microservice": 20,
-            "resilience4j": 20,
-            "springcloud": 20
+            "docker": 20
         },
         "total_count": 20
     },
     {
         "date": "2023-11-23",
         "commits_by_topics": {
-            "docker": 1,
-            "dotnet": 1,
-            "kubernetes": 1,
-            "microservices": 1
+            "dotnet": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-11-24",
         "commits_by_topics": {
-            "docker": 8,
-            "dotnet": 8,
-            "kubernetes": 8,
-            "microservices": 8
+            "dotnet": 8
         },
         "total_count": 8
     },
     {
         "date": "2023-11-25",
         "commits_by_topics": {
-            "docker": 1,
-            "dotnet": 1,
-            "kubernetes": 1,
-            "microservices": 1
+            "dotnet": 1
         },
         "total_count": 1
     },
     {
         "date": "2023-11-28",
         "commits_by_topics": {
-            "docker": 20,
-            "dotnet": 20,
-            "kubernetes": 20,
-            "microservices": 20
+            "dotnet": 20
         },
         "total_count": 20
     },
@@ -831,6 +860,20 @@
             "java": 2
         },
         "total_count": 2
+    },
+    {
+        "date": "2024-01-22",
+        "commits_by_topics": {
+            "csharp": 6
+        },
+        "total_count": 6
+    },
+    {
+        "date": "2024-02-22",
+        "commits_by_topics": {
+            "csharp": 1
+        },
+        "total_count": 1
     },
     {
         "date": "2024-04-20",
@@ -1111,91 +1154,78 @@
     {
         "date": "2024-07-02",
         "commits_by_topics": {
-            "d3": 8,
-            "data-visualization": 8
+            "d3": 8
         },
         "total_count": 8
     },
     {
         "date": "2024-07-03",
         "commits_by_topics": {
-            "d3": 14,
-            "data-visualization": 14
+            "d3": 14
         },
         "total_count": 21
     },
     {
         "date": "2024-07-06",
         "commits_by_topics": {
-            "d3": 4,
-            "data-visualization": 2
+            "d3": 2
         },
-        "total_count": 11
+        "total_count": 9
     },
     {
         "date": "2024-07-07",
         "commits_by_topics": {
-            "d3": 2,
-            "data-visualization": 2
+            "d3": 2
         },
         "total_count": 2
     },
     {
-        "date": "2024-07-08",
-        "commits_by_topics": {
-            "d3": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-07-11",
         "commits_by_topics": {
-            "d3": 3,
-            "data-visualization": 3
+            "d3": 3
         },
         "total_count": 3
     },
     {
         "date": "2024-07-16",
         "commits_by_topics": {
-            "d3": 1,
-            "data-visualization": 1
+            "d3": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-07-18",
         "commits_by_topics": {
-            "d3": 1
+            "githubactions": 1
         },
         "total_count": 1
     },
     {
         "date": "2024-07-19",
         "commits_by_topics": {
-            "d3": 6
+            "githubactions": 6
         },
         "total_count": 6
     },
     {
         "date": "2024-07-20",
         "commits_by_topics": {
-            "d3": 2
+            "githubactions": 2
         },
         "total_count": 2
     },
     {
         "date": "2024-07-22",
         "commits_by_topics": {
-            "d3": 2
+            "githubactions": 2
         },
         "total_count": 2
     },
     {
         "date": "2024-07-23",
         "commits_by_topics": {
-            "d3": 1
+            "githubactions": 7
         },
-        "total_count": 1
+        "total_count": 7
     }
 ]
