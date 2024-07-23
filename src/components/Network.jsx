@@ -67,12 +67,13 @@ const Network = () => {
         // Create a simulation with forces
         const simulation = d3.forceSimulation(nodes)
             .force("charge", d3.forceManyBody()
-                .strength(10)
+                .strength(20)
                 .distanceMin(30)
             )
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force("collision", d3.forceCollide()
                 .radius(d => d.radius + 3)
+                .strength(.3)
             )
             .on("tick", ticked);
 
