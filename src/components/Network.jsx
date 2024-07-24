@@ -71,8 +71,8 @@ const Network = () => {
         const topics = Object.keys(topicCommits);
         const commitCounts = Object.values(topicCommits);
 
-        const width = 800;
-        const height = 600;
+        const width = 600;
+        const height = 300;
 
         const radiusScale = d3.scaleSqrt()
             .domain([0, d3.max(commitCounts)])
@@ -170,8 +170,8 @@ const Network = () => {
     };
 
     return (
-        <div className="container p-3">
-            {!loading ? (
+        <div className="container p-3" style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        {!loading ? (
                 <svg ref={networkRef}></svg>
             ) : (
                 <div>Loading...</div>
