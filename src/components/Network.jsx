@@ -75,7 +75,7 @@ const Network = () => {
 
         const radiusScale = d3.scaleSqrt()
             .domain([0, d3.max(commitCounts)])
-            .range([3, 30]);
+            .range([2, 40]);
 
         const colorScale = d3.scaleOrdinal()
             .domain(topics)
