@@ -32,7 +32,6 @@ const topicToSvgMap = {
     "d3": D3
 };
 
-
 const Network = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -71,7 +70,7 @@ const Network = () => {
         const topics = Object.keys(topicCommits);
         const commitCounts = Object.values(topicCommits);
 
-        const width = 600;
+        const width = 420;
         const height = 300;
 
         const radiusScale = d3.scaleSqrt()
@@ -85,7 +84,8 @@ const Network = () => {
         const nodes = topics.map(topic => ({
             id: topic,
             radius: radiusScale(topicCommits[topic]),
-            color: colorScale(topic)
+            color: colorScale(topic),
+            opacity: .03
         }));
 
         const svg = d3.select(networkRef.current)
@@ -99,7 +99,7 @@ const Network = () => {
             )
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force("collision", d3.forceCollide()
-                .radius(d => d.radius + 12)
+                .radius(d => d.radius + 13)
                 .strength(0.3)
             )
             .on("tick", ticked);
@@ -113,6 +113,13 @@ const Network = () => {
             if (!event.active) simulation.alphaTarget(0.3).restart();
             event.subject.fx = event.subject.x;
             event.subject.fy = event.subject.y;
+
+            event.subject.color = d3.color(event.subject.color).brighter(1);
+            event.subject.opacity =  event.subject.opacity * 3;
+
+            svg.selectAll('circle')
+                .style('stroke', '#f3f3f3')
+                .style('fill-opacity', d => d.opacity);
         }
 
         function dragged(event) {
@@ -124,37 +131,42 @@ const Network = () => {
             if (!event.active) simulation.alphaTarget(0);
             event.subject.fx = null;
             event.subject.fy = null;
+
+            event.subject.color = d3.color(event.subject.color).darker(1);
+            event.subject.opacity =  event.subject.opacity / 3;
+
+            svg.selectAll('circle')
+                .style('stroke', '#d3d3d3')
+                .style('fill-opacity', d => d.opacity);
         }
 
         function ticked() {
-
             const circles = svg.selectAll('circle')
                 .data(nodes);
 
             circles.enter()
                 .append('circle')
                 .attr('r', d => d.radius + 10)
-                .style('fill', 'none')
-                .style('stroke', '#636363')
-                .style('stroke-width', '.5px')
+                .style('fill', '#d3d3d3')
+                .style('fill-opacity', d => d.opacity)
+                .style('stroke', '#d3d3d3')
+                .style('stroke-width', '.3px')
                 .merge(circles)
                 .attr('cx', d => d.x)
                 .attr('cy', d => d.y);
 
             circles.exit().remove();
 
-            // Bind the data to the foreignObjects
             const u = svg.selectAll('foreignObject')
                 .data(nodes);
 
-            // Enter new foreignObjects
             u.enter()
                 .append('foreignObject')
                 .attr('width', d => d.radius * 2)
                 .attr('height', d => d.radius * 2)
                 .append('xhtml:div')
-                .style('width', d => `${d.radius * 2}px`)
-                .style('height', d => `${d.radius * 2}px`)
+                .style('width', d => d.radius * 2 + 'px')
+                .style('height', d => d.radius * 2 + 'px')
                 .html(d => {
                     const SvgComponent = topicToSvgMap[d.id.toLowerCase()];
                     return SvgComponent ? ReactDOMServer.renderToString(SvgComponent(d.radius * 2)) : '';
@@ -165,13 +177,27 @@ const Network = () => {
                 .attr('y', d => d.y - d.radius);
 
             u.exit().remove();
-        }
 
+            // set interaction boundary
+            nodes.forEach(d => {
+                const circleRadius = d.radius + 10;
+                d.x = Math.max(circleRadius, Math.min(width - circleRadius, d.x));
+                d.y = Math.max(circleRadius, Math.min(height - circleRadius, d.y));
+            });
+
+            svg.selectAll('circle')
+                .attr('cx', d => d.x)
+                .attr('cy', d => d.y);
+
+            svg.selectAll('foreignObject')
+                .attr('x', d => d.x - d.radius)
+                .attr('y', d => d.y - d.radius);
+        }
     };
 
     return (
-        <div className="container p-3" style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        {!loading ? (
+        <div style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            {!loading ? (
                 <svg ref={networkRef}></svg>
             ) : (
                 <div>Loading...</div>
