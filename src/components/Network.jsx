@@ -14,6 +14,7 @@ import Quarkus from "../assets/Quarkus.jsx";
 import React from "../assets/React.jsx";
 import GitHubActions from "../assets/GitHubActions.jsx";
 import D3 from "../assets/D3.jsx";
+import Azure from "../assets/Azure.jsx";
 
 const topicToSvgMap = {
     "java": Java,
@@ -29,7 +30,8 @@ const topicToSvgMap = {
     "quarkus": Quarkus,
     "react": React,
     "githubactions": GitHubActions,
-    "d3": D3
+    "d3": D3,
+    "azure": Azure
 };
 
 const Network = () => {
