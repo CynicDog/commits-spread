@@ -789,27 +789,6 @@
         "total_count": 1
     },
     {
-        "date": "2024-04-07",
-        "commits_by_topics": {
-            "quarkus": 7
-        },
-        "total_count": 7
-    },
-    {
-        "date": "2024-04-15",
-        "commits_by_topics": {
-            "quarkus": 4
-        },
-        "total_count": 4
-    },
-    {
-        "date": "2024-04-16",
-        "commits_by_topics": {
-            "quarkus": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-04-20",
         "commits_by_topics": {
             "react": 3
@@ -950,20 +929,6 @@
         "total_count": 1
     },
     {
-        "date": "2024-06-01",
-        "commits_by_topics": {
-            "quarkus": 2
-        },
-        "total_count": 2
-    },
-    {
-        "date": "2024-06-05",
-        "commits_by_topics": {
-            "quarkus": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-06-07",
         "commits_by_topics": {
             "quarkus": 21
@@ -1048,20 +1013,6 @@
         "total_count": 2
     },
     {
-        "date": "2024-06-26",
-        "commits_by_topics": {
-            "quarkus": 2
-        },
-        "total_count": 2
-    },
-    {
-        "date": "2024-06-27",
-        "commits_by_topics": {
-            "quarkus": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-07-02",
         "commits_by_topics": {
             "d3": 8
@@ -1090,13 +1041,6 @@
         "total_count": 2
     },
     {
-        "date": "2024-07-08",
-        "commits_by_topics": {
-            "quarkus": 2
-        },
-        "total_count": 2
-    },
-    {
         "date": "2024-07-11",
         "commits_by_topics": {
             "d3": 3
@@ -1104,19 +1048,11 @@
         "total_count": 3
     },
     {
-        "date": "2024-07-15",
-        "commits_by_topics": {
-            "quarkus": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-07-16",
         "commits_by_topics": {
-            "d3": 1,
-            "quarkus": 1
+            "d3": 1
         },
-        "total_count": 2
+        "total_count": 1
     },
     {
         "date": "2024-07-23",
@@ -1139,5 +1075,12 @@
             "githubactions": 2
         },
         "total_count": 8
+    },
+    {
+        "date": "2024-07-27",
+        "commits_by_topics": {
+            "azure": 2
+        },
+        "total_count": 2
     }
 ]
