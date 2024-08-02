@@ -3,7 +3,6 @@ import json
 import os
 from collections import defaultdict
 
-# Read environment variables directly
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 GITHUB_USERNAME = os.getenv('GITHUB_USERNAME')
 REPO_NAME = os.getenv('REPO_NAME')
@@ -34,7 +33,10 @@ def get_commits(owner, repo):
     response.raise_for_status()
     
     commits = response.json()
-    filtered_commits = [commit for commit in commits if commit_author(commit) != 'github-actions[bot]']
+    filtered_commits = [
+        commit for commit in commits 
+        if commit_author(commit) == GITHUB_USERNAME  
+    ]
     return filtered_commits
 
 def commit_author(commit):
