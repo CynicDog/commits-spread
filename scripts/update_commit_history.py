@@ -33,11 +33,15 @@ def get_commits(owner, repo):
     response.raise_for_status()
     
     commits = response.json()
+
     filtered_commits = [
         commit for commit in commits 
-        if commit_author(commit) == GITHUB_USERNAME  
+        if commit_author(commit) == GITHUB_USERNAME
     ]
-    return filtered_commits
+
+    # Sort commits by date in descending order and get the most recent 140
+    filtered_commits.sort(key=lambda x: x['commit']['author']['date'], reverse=True)
+    return filtered_commits[:140]
 
 def commit_author(commit):
     author = commit.get('author')
