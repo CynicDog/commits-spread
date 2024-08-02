@@ -78,9 +78,6 @@ def main():
         }
         results.append(result)
 
-    # Keep only the most recent 140 results
-    results = results[-140:]
-
     save_commit_history(results)
 
 if __name__ == '__main__':
