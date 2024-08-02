@@ -3,6 +3,7 @@ import json
 import os
 from collections import defaultdict
 
+# Read environment variables directly
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 GITHUB_USERNAME = os.getenv('GITHUB_USERNAME')
 REPO_NAME = os.getenv('REPO_NAME')
@@ -33,15 +34,11 @@ def get_commits(owner, repo):
     response.raise_for_status()
     
     commits = response.json()
-
     filtered_commits = [
         commit for commit in commits 
-        if commit_author(commit) == GITHUB_USERNAME
+        if commit_author(commit) == GITHUB_USERNAME  # Filter commits by your username
     ]
-
-    # Sort commits by date in descending order and get the most recent 140
-    filtered_commits.sort(key=lambda x: x['commit']['author']['date'], reverse=True)
-    return filtered_commits[:140]
+    return filtered_commits
 
 def commit_author(commit):
     author = commit.get('author')
@@ -80,6 +77,9 @@ def main():
             'total_count': len(commits_per_date[date])  # Count unique commits per date
         }
         results.append(result)
+
+    # Keep only the most recent 140 results
+    results = results[-140:]
 
     save_commit_history(results)
 
