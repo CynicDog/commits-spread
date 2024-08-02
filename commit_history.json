@@ -1079,17 +1079,16 @@
     {
         "date": "2024-07-28",
         "commits_by_topics": {
-            "azure": 4,
             "githubactions": 1
         },
-        "total_count": 5
+        "total_count": 1
     },
     {
         "date": "2024-07-29",
         "commits_by_topics": {
-            "azure": 6
+            "azure": 5
         },
-        "total_count": 6
+        "total_count": 5
     },
     {
         "date": "2024-07-30",
@@ -1103,6 +1102,13 @@
         "commits_by_topics": {
             "azure": 13
         },
-        "total_count": 42
+        "total_count": 21
+    },
+    {
+        "date": "2024-08-01",
+        "commits_by_topics": {
+            "azure": 5
+        },
+        "total_count": 27
     }
 ]
