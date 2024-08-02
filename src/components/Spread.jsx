@@ -8,7 +8,13 @@ const Spread = () => {
     useEffect(() => {
         d3.json('https://raw.githubusercontent.com/CynicDog/commits-spread/main/commit_history.json')
             .then(data => {
-                setData(data);
+
+                const sortedData = data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                // Keep only the most recent 140 entries
+                const recentData = sortedData.slice(0, 140);
+
+                setData(recentData);
                 setLoading(false);
             })
             .catch(error => {
