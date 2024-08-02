@@ -9,10 +9,7 @@ const Spread = () => {
         d3.json('https://raw.githubusercontent.com/CynicDog/commits-spread/main/commit_history.json')
             .then(data => {
 
-                const sortedData = data.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-                // Keep only the most recent 140 entries
-                const recentData = sortedData.slice(0, 140);
+                const recentData = data.slice(data.length - 140, data.length);
 
                 setData(recentData);
                 setLoading(false);
