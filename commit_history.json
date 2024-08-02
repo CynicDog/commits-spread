@@ -1,5 +1,124 @@
 [
     {
+        "date": "2022-07-05",
+        "commits_by_topics": {
+            "java": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2022-07-06",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-07",
+        "commits_by_topics": {
+            "java": 7
+        },
+        "total_count": 7
+    },
+    {
+        "date": "2022-07-08",
+        "commits_by_topics": {
+            "java": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2022-07-09",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-10",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-11",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-12",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-07-13",
+        "commits_by_topics": {
+            "java": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2022-07-14",
+        "commits_by_topics": {
+            "java": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2022-07-15",
+        "commits_by_topics": {
+            "java": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2022-07-16",
+        "commits_by_topics": {
+            "java": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2022-07-20",
+        "commits_by_topics": {
+            "java": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2022-07-22",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2022-09-01",
+        "commits_by_topics": {
+            "java": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2022-09-02",
+        "commits_by_topics": {
+            "java": 5
+        },
+        "total_count": 5
+    },
+    {
+        "date": "2022-09-04",
+        "commits_by_topics": {
+            "java": 1
+        },
+        "total_count": 1
+    },
+    {
         "date": "2022-09-05",
         "commits_by_topics": {
             "java": 3
@@ -936,13 +1055,6 @@
         "total_count": 1
     },
     {
-        "date": "2024-07-24",
-        "commits_by_topics": {
-            "githubactions": 1
-        },
-        "total_count": 1
-    },
-    {
         "date": "2024-07-26",
         "commits_by_topics": {
             "azure": 2
@@ -981,8 +1093,8 @@
         "date": "2024-08-02",
         "commits_by_topics": {
             "azure": 4,
-            "githubactions": 3
+            "githubactions": 4
         },
-        "total_count": 16
+        "total_count": 17
     }
 ]
