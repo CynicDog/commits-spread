@@ -361,7 +361,7 @@
         "commits_by_topics": {
             "vertx": 5
         },
-        "total_count": 7
+        "total_count": 5
     },
     {
         "date": "2023-05-15",
@@ -579,16 +579,16 @@
     {
         "date": "2023-09-11",
         "commits_by_topics": {
-            "spring": 8
+            "spring": 1
         },
-        "total_count": 8
+        "total_count": 1
     },
     {
         "date": "2023-09-12",
         "commits_by_topics": {
-            "spring": 22
+            "spring": 2
         },
-        "total_count": 22
+        "total_count": 2
     },
     {
         "date": "2023-09-13",
@@ -931,9 +931,9 @@
     {
         "date": "2024-06-07",
         "commits_by_topics": {
-            "quarkus": 21
+            "quarkus": 16
         },
-        "total_count": 21
+        "total_count": 16
     },
     {
         "date": "2024-06-08",
@@ -959,9 +959,9 @@
     {
         "date": "2024-06-11",
         "commits_by_topics": {
-            "quarkus": 9
+            "quarkus": 7
         },
-        "total_count": 9
+        "total_count": 7
     },
     {
         "date": "2024-06-13",
@@ -987,9 +987,9 @@
     {
         "date": "2024-06-18",
         "commits_by_topics": {
-            "githubactions": 18
+            "githubactions": 11
         },
-        "total_count": 18
+        "total_count": 11
     },
     {
         "date": "2024-06-19",
@@ -1015,16 +1015,16 @@
     {
         "date": "2024-07-02",
         "commits_by_topics": {
-            "d3": 8
+            "d3": 2
         },
-        "total_count": 8
+        "total_count": 2
     },
     {
         "date": "2024-07-03",
         "commits_by_topics": {
-            "d3": 14
+            "d3": 3
         },
-        "total_count": 14
+        "total_count": 3
     },
     {
         "date": "2024-07-06",
@@ -1055,60 +1055,53 @@
         "total_count": 1
     },
     {
-        "date": "2024-07-23",
-        "commits_by_topics": {
-            "githubactions": 3
-        },
-        "total_count": 3
-    },
-    {
         "date": "2024-07-24",
-        "commits_by_topics": {
-            "githubactions": 9
-        },
-        "total_count": 9
-    },
-    {
-        "date": "2024-07-26",
-        "commits_by_topics": {
-            "azure": 6,
-            "githubactions": 2
-        },
-        "total_count": 8
-    },
-    {
-        "date": "2024-07-28",
         "commits_by_topics": {
             "githubactions": 1
         },
         "total_count": 1
     },
     {
+        "date": "2024-07-26",
+        "commits_by_topics": {
+            "azure": 2
+        },
+        "total_count": 2
+    },
+    {
         "date": "2024-07-29",
         "commits_by_topics": {
-            "azure": 5
+            "azure": 1
         },
-        "total_count": 5
+        "total_count": 1
     },
     {
         "date": "2024-07-30",
         "commits_by_topics": {
-            "azure": 9
+            "azure": 2
         },
-        "total_count": 9
+        "total_count": 2
     },
     {
         "date": "2024-07-31",
         "commits_by_topics": {
-            "azure": 13
+            "azure": 11
         },
-        "total_count": 21
+        "total_count": 11
     },
     {
         "date": "2024-08-01",
         "commits_by_topics": {
             "azure": 5
         },
-        "total_count": 27
+        "total_count": 26
+    },
+    {
+        "date": "2024-08-02",
+        "commits_by_topics": {
+            "azure": 4,
+            "githubactions": 1
+        },
+        "total_count": 14
     }
 ]
