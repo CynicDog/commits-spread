@@ -1087,6 +1087,13 @@
             "azure": 4,
             "githubactions": 4
         },
-        "total_count": 22
+        "total_count": 17
+    },
+    {
+        "date": "2024-08-03",
+        "commits_by_topics": {
+            "azure": 5
+        },
+        "total_count": 5
     }
 ]
