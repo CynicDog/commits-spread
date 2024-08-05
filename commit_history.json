@@ -1079,7 +1079,7 @@
         "commits_by_topics": {
             "azure": 5
         },
-        "total_count": 26
+        "total_count": 24
     },
     {
         "date": "2024-08-02",
@@ -1090,9 +1090,9 @@
         "total_count": 17
     },
     {
-        "date": "2024-08-03",
+        "date": "2024-08-04",
         "commits_by_topics": {
-            "azure": 5
+            "azure": 3
         },
         "total_count": 5
     }
