@@ -996,7 +996,7 @@
             "githubactions": 4,
             "d3": 1
         },
-        "total_count": 10
+        "total_count": 9
     },
     {
         "date": "2024-08-11",
@@ -1043,9 +1043,9 @@
     {
         "date": "2024-08-25",
         "commits_by_topics": {
-            "azure": 3
+            "azure": 2
         },
-        "total_count": 12
+        "total_count": 11
     },
     {
         "date": "2024-08-26",
