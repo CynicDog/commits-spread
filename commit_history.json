@@ -1075,5 +1075,12 @@
             "quarkus": 3
         },
         "total_count": 9
+    },
+    {
+        "date": "2024-09-05",
+        "commits_by_topics": {
+            "azure": 1
+        },
+        "total_count": 1
     }
 ]
