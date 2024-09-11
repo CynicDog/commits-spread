@@ -999,17 +999,17 @@
         "total_count": 1
     },
     {
-        "date": "2024-09-09",
-        "commits_by_topics": {
-            "spring": 22
-        },
-        "total_count": 22
-    },
-    {
         "date": "2024-09-10",
         "commits_by_topics": {
-            "spring": 4
+            "spring": 5
         },
-        "total_count": 4
+        "total_count": 5
+    },
+    {
+        "date": "2024-09-11",
+        "commits_by_topics": {
+            "spring": 1
+        },
+        "total_count": 1
     }
 ]
