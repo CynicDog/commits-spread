@@ -46,9 +46,25 @@ def commit_author(commit):
         return author.get('login')
     return None
 
-def save_commit_history(data, filename='commit_history.json'):
+def save_commit_history(new_data, filename='commit_history.json'):
+    # Read existing data
+    if os.path.exists(filename):
+        with open(filename, 'r') as f:
+            existing_data = json.load(f)
+    else:
+        existing_data = []
+
+    # Create a set of existing dates for quick lookup
+    existing_dates = {entry['date'] for entry in existing_data}
+
+    # Append new data only if the date is not already present
+    for new_entry in new_data:
+        if new_entry['date'] not in existing_dates:
+            existing_data.append(new_entry)
+
+    # Write the combined data back to the file
     with open(filename, 'w') as f:
-        json.dump(data, f, indent=4)
+        json.dump(existing_data, f, indent=4)
 
 def main():
     repos = get_repos()
