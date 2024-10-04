@@ -1081,5 +1081,40 @@
             "spring": 1
         },
         "total_count": 1
+    },
+    {
+        "date": "2024-09-27",
+        "commits_by_topics": {
+            "spring": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2024-09-28",
+        "commits_by_topics": {
+            "spring": 2
+        },
+        "total_count": 2
+    },
+    {
+        "date": "2024-09-30",
+        "commits_by_topics": {
+            "spring": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2024-10-02",
+        "commits_by_topics": {
+            "spring": 7
+        },
+        "total_count": 34
+    },
+    {
+        "date": "2024-10-03",
+        "commits_by_topics": {
+            "spring": 1
+        },
+        "total_count": 4
     }
 ]
