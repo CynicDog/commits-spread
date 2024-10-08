@@ -15,6 +15,7 @@ import React from "../assets/React.jsx";
 import GitHubActions from "../assets/GitHubActions.jsx";
 import D3 from "../assets/D3.jsx";
 import Azure from "../assets/Azure.jsx";
+import {useTopic} from "../../Context.jsx";
 
 const topicToSvgMap = {
     "java": Java,
@@ -35,8 +36,13 @@ const topicToSvgMap = {
 };
 
 const Network = () => {
+
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const { topic, setTopic } = useTopic();
+
+    const networkRef = useRef();
 
     useEffect(() => {
         d3.json('https://raw.githubusercontent.com/CynicDog/commits-spread/main/commit_history.json')
@@ -50,7 +56,6 @@ const Network = () => {
             });
     }, []);
 
-    const networkRef = useRef();
 
     useEffect(() => {
         if (data) {
@@ -173,6 +178,12 @@ const Network = () => {
                     const SvgComponent = topicToSvgMap[d.id.toLowerCase()];
                     return SvgComponent ? ReactDOMServer.renderToString(SvgComponent(d.radius * 2)) : '';
                 })
+                .on('mouseenter', function(){
+                    d3.select(this).style('cursor', 'pointer');
+                })
+                .on('click', function(event, d) {
+                    setTopic(d.id)
+                })
                 .call(drag)
                 .merge(u)
                 .attr('x', d => d.x - d.radius)
@@ -198,9 +209,14 @@ const Network = () => {
     };
 
     return (
-        <div style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             {!loading ? (
-                <svg ref={networkRef}></svg>
+                <>
+                    <svg ref={networkRef}></svg>
+                    <div style={{margin: '15px'}}>
+                        {topic}
+                    </div>
+                </>
             ) : (
                 <div>Loading...</div>
             )}
