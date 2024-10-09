@@ -41,7 +41,6 @@ const Network = () => {
     const [loading, setLoading] = useState(true);
 
     const { topic, setTopic } = useTopic();
-
     const networkRef = useRef();
 
     useEffect(() => {
@@ -55,7 +54,6 @@ const Network = () => {
                 setLoading(false);
             });
     }, []);
-
 
     useEffect(() => {
         if (data) {
@@ -213,9 +211,6 @@ const Network = () => {
             {!loading ? (
                 <>
                     <svg ref={networkRef}></svg>
-                    <div style={{margin: '15px'}}>
-                        {topic}
-                    </div>
                 </>
             ) : (
                 <div>Loading...</div>
