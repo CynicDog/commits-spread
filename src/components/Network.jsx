@@ -177,7 +177,7 @@ const Network = () => {
                     return SvgComponent ? ReactDOMServer.renderToString(SvgComponent(d.radius * 2)) : '';
                 })
                 .on('mouseenter', function(){
-                    d3.select(this).style('cursor', 'pointer');
+                    d3.select(this).style('cursor', 'grab');
                 })
                 .on('click', function(event, d) {
                     setTopic(d.id)
