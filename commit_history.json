@@ -1137,5 +1137,23 @@
             "azure": 3
         },
         "total_count": 3
+    },
+    {
+        "date": "2024-10-10",
+        "commits_by_topics": {
+            "mininet": 1,
+            "networking": 1,
+            "sdn": 1
+        },
+        "total_count": 10
+    },
+    {
+        "date": "2024-10-16",
+        "commits_by_topics": {
+            "mininet": 5,
+            "networking": 5,
+            "sdn": 5
+        },
+        "total_count": 5
     }
 ]
