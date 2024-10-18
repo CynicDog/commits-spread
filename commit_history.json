@@ -1155,5 +1155,23 @@
             "sdn": 5
         },
         "total_count": 5
+    },
+    {
+        "date": "2024-10-17",
+        "commits_by_topics": {
+            "mininet": 3,
+            "networking": 3,
+            "sdn": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2024-10-18",
+        "commits_by_topics": {
+            "mininet": 1,
+            "networking": 1,
+            "sdn": 1
+        },
+        "total_count": 1
     }
 ]
