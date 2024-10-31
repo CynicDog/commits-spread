@@ -1190,5 +1190,19 @@
             "azure": 21
         },
         "total_count": 23
+    },
+    {
+        "date": "2024-10-30",
+        "commits_by_topics": {
+            "azure": 8
+        },
+        "total_count": 16
+    },
+    {
+        "date": "2024-10-31",
+        "commits_by_topics": {
+            "azure": 4
+        },
+        "total_count": 4
     }
 ]
