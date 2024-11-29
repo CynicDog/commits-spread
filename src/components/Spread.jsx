@@ -9,7 +9,7 @@ const Spread = () => {
         d3.json('https://raw.githubusercontent.com/CynicDog/commits-spread/main/commit_history.json')
             .then(data => {
 
-                const recentData = data.slice(data.length - 140, data.length);
+                const recentData = data.slice(data.length - 210, data.length);
 
                 setData(recentData);
                 setLoading(false);
