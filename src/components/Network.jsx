@@ -16,6 +16,7 @@ import GitHubActions from "../assets/GitHubActions.jsx";
 import D3 from "../assets/D3.jsx";
 import Azure from "../assets/Azure.jsx";
 import {useTopic} from "../../Context.jsx";
+import NodeJs from "../assets/NodeJs.jsx";
 
 const topicToSvgMap = {
     "java": Java,
@@ -32,7 +33,8 @@ const topicToSvgMap = {
     "react": React,
     "githubactions": GitHubActions,
     "d3": D3,
-    "azure": Azure
+    "azure": Azure,
+    "nodejs": NodeJs
 };
 
 const Network = () => {
