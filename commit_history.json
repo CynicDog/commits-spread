@@ -1347,5 +1347,26 @@
             "github-actions": 4
         },
         "total_count": 4
+    },
+    {
+        "date": "2025-11-10",
+        "commits_by_topics": {
+            "delta-lake": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2025-11-15",
+        "commits_by_topics": {
+            "delta-lake": 3
+        },
+        "total_count": 3
+    },
+    {
+        "date": "2025-11-21",
+        "commits_by_topics": {
+            "delta-lake": 4
+        },
+        "total_count": 4
     }
 ]
