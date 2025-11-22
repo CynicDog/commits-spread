@@ -29,16 +29,40 @@ def get_topics(owner, repo):
     return response.json().get('names', [])
 
 def get_commits(owner, repo):
-    url = f'https://api.github.com/repos/{owner}/{repo}/commits'
-    response = requests.get(url, headers=HEADERS)
-    response.raise_for_status()
-    
-    commits = response.json()
-    filtered_commits = [
-        commit for commit in commits 
-        if commit_author(commit) == GITHUB_USERNAME  # Filter commits by your username
-    ]
-    return filtered_commits
+    commits = []
+    page = 1
+    per_page = 100  # max allowed
+
+    while True:
+        url = f'https://api.github.com/repos/{owner}/{repo}/commits'
+        params = {"page": page, "per_page": per_page}
+        response = requests.get(url, headers=HEADERS, params=params)
+        response.raise_for_status()
+
+        batch = response.json()
+        if not batch:
+            break
+
+        commits.extend(batch)
+        page += 1
+
+    # Filter commits authored by you (username OR email matching)
+    filtered = []
+    for commit in commits:
+        gh_author = commit.get("author")
+        raw_author = commit["commit"]["author"]
+
+        login = gh_author["login"] if gh_author else None
+        email = raw_author.get("email")
+
+        if (
+            login == GITHUB_USERNAME or
+            email and email.endswith("@users.noreply.github.com") and GITHUB_USERNAME in email or
+            email == os.getenv("GITHUB_EMAIL")
+        ):
+            filtered.append(commit)
+
+    return filtered
 
 def commit_author(commit):
     author = commit.get('author')
