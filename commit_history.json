@@ -1306,5 +1306,46 @@
             "nodejs": 1
         },
         "total_count": 1
+    },
+    {
+        "date": "2025-05-10",
+        "commits_by_topics": {
+            "azure": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2025-05-28",
+        "commits_by_topics": {
+            "azure": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2025-05-29",
+        "commits_by_topics": {
+            "azure": 1
+        },
+        "total_count": 1
+    },
+    {
+        "date": "2025-07-19",
+        "commits_by_topics": {
+            "agile-development": 16,
+            "agile-methodologies": 16,
+            "ci-cd": 16,
+            "github-actions": 16
+        },
+        "total_count": 16
+    },
+    {
+        "date": "2025-07-21",
+        "commits_by_topics": {
+            "agile-development": 4,
+            "agile-methodologies": 4,
+            "ci-cd": 4,
+            "github-actions": 4
+        },
+        "total_count": 4
     }
 ]
